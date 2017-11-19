@@ -1,0 +1,46 @@
+{
+  "name": "vue-pract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack --w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.0.39",
+    "@types/jquery": "^3.2.16",
+    "@types/semantic-ui": "^2.2.6",
+    "body-parser": "^1.18.2",
+    "css-loader": "^0.28.7",
+    "express": "^4.16.2",
+    "install": "^0.10.2",
+    "npm": "^5.5.1",
+    "semantic-ui": "^2.2.13",
+    "style-loader": "^0.19.0",
+    "ts-lint": "^4.5.1",
+    "typescript": "^2.6.1",
+    "url-loader": "^0.6.2",
+    "vue": "^2.5.5",
+    "vue-ts-loader": "0.0.3",
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.2.16",
+    "awesome-typescript-loader": "^3.4.0",
+    "css-loader": "^0.28.7",
+    "raw-loader": "^0.5.1",
+    "ts-loader": "^3.1.1",
+    "tslint": "^5.8.0",
+    "tslint-loader": "^3.5.3",
+    "vue-class-component": "^6.1.0",
+    "vue-loader": "^13.5.0",
+    "vue-property-decorator": "^6.0.0",
+    "vue-template-compiler": "^2.5.5",
+    "vue-ts-loader": "0.0.3",
+    "webpack-cleanup-plugin": "^0.5.1"
+  }
+}
