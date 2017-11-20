@@ -1,6 +1,6 @@
 <template>
 <div class="ui form">
-    <div class="three fields ">
+    <div class="three fields">
         <div class="field">
             <label for="name">Name:</label>
             <input v-model="name" name="name" placeholder="Enter name..."/>
@@ -16,8 +16,6 @@
     </div>
    <button class="ui purple button right floated" @click="save">Save</button>
 </div>
-
-
 </template>
 
 <script lang="ts">

@@ -8,7 +8,7 @@
                 <simple-list v-bind:List="Records"></simple-list>
              </div>
          </div>
-
+        <simple-chart></simple-chart>
      </div>
   </div>
 </template>
@@ -19,8 +19,9 @@ import Component from "vue-class-component";
 import { Person } from "./entities/person";
 import SimpleList from "./components/simple-list.vue";
 import SimpleInputBox from "./components/simple-input-box.vue";
+import SimpleChart from "./components/simple-chart.vue";
 
-@Component({ components: { SimpleList, SimpleInputBox } })
+@Component({ components: { SimpleList, SimpleInputBox, SimpleChart } })
 export default class App extends Vue {
   private list: Person[] = new Array<Person>();
 
@@ -30,6 +31,8 @@ export default class App extends Vue {
     return this.list.map((i: Person) => i.getFullRecord());
   }
 
-  getCount():number {return this.list.length || 0;}
+  getCount(): number {
+    return this.list.length || 0;
+  }
 }
 </script>
